@@ -32,45 +32,58 @@
         <a href="#bell"><i class="fa fa-bell" aria-hidden="true" style="position: absolute;
                 font-size: 35px;
                  left: 1370px;
-                 top:47px ;
+                 top:35px ;
                  color: #1D9390;"></i>
-            <a href="user"><i class="fa fa-user" aria-hidden="true" style="top:47px;left: 1440px;"</a>
+            <a href="user"><i class="fa fa-user" aria-hidden="true" style="top:35px;left: 1440px;" </a>
     </div>
-<div class=""
+    <div class="middle">
+        <i class="fa fa-user-circle-o" style="color:#415352;font-size: 100px;position: absolute;top:150px;left: 710px;"
+            aria-hidden="true"></i>
+        <form>
+            <div id="wrapperDiv">
+                <div id="div1" style="padding:20px;background-color:white;float:left"><label for="fname">First
+                        Name</label>
+                    <input type="text" id="fname" name="fname" placeholder="Enter your first name here" required>
+                </div>
+                <div id="div2" style="padding:20px;background-color:white;float:left"><label for="lname"
+                        class="lnamee">Last Name</label>
+                    <input type="text" id="lname" name="lname" placeholder="Enter your last name here" required>
+                </div>
+            </div>
 
 
 
 
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email here" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password here" hidden>
 
-       <!--<div class="form_tab" id="form-tab">
-        <form class="form">
-            <h6 class="ID" id="userId">Your ID:2358697047</h6>
-            <label class="fname" for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname" class="firstname"><br>
-            <label class="lname" for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname" class="lastname">
 
-            <p class="email">Email adress</p>
-            <input type="email" name="email" minlength="15" maxlength="30" class="inputemail">
-            <p class="password">Password</p>
-            <input type="password" name="password" minlength="6" maxlength="30" class="inputpassword">
-        </form><br>
-        <a href="#" class="savechanges">Save changes</a>
-    </div>
+            <a href="#savechanges"><button class="button2" type="submit">Save changes</button></a>
 
-    <div class="survey">
-        <form class="form">
-            <p class="value">How much are you paid for an hour of work?</p>
-            <input type="number" name="number" minlength="1" maxlength="100000" class="inputvalue">
-            <select name="values" class="valuenames">
-                <option value="RON">RON</option>
-                <option value="USD">USD</option>
-                <option value="EUR">EUR</option>
-            </select>
         </form>
-    </div>
-    </div>
-    </div>-->
+
+        <div class="survey">
+            <div id="AlertDiv">
+                <h1>
+                    How much are you paid for an hour of work?
+                </h1>
+                <input type="text" class="text">
+                <select id="dropdown" name="role" class="form-control" required="">
+
+                    <option value="euro">EUR</option>
+                    <option value="ron">RON</option>
+                    <option value="usd">USD</option>
+                    <option value="bitcoin">BTC</option>
+                    <option value="ethereum">ETH</option>
+                </select>
+                <a href="#savechanges"><button class="button3" type="submit">Save changes</button></a>
+            </div>
+
+
+        </div>
+        <img class="frame" src="./images/Frame.png" width="550" height="350">
 
 
 </body>
